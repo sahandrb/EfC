@@ -2,8 +2,9 @@ using System.Diagnostics;
 using EfCore1.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EfCore1.Controllers
+namespace EfCore1.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

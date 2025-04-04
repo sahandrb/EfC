@@ -10,7 +10,7 @@ namespace EFCore.Models.Models
 {
     public class OurModel
     {
-
+     
         public string Id { get; set; }
         //Add Range
         [Range(1, 10)]

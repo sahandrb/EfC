@@ -22,6 +22,10 @@
     <ProjectReference Include="..\EFCore.Utilitys\EFCore.Utilitys.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
 
 

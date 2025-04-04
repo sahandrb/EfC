@@ -4,8 +4,10 @@ using EFCore.Models;
 using EFCore.DataAccess.Data;
 
 
-namespace EfCore1.Controllers
+
+namespace EfCore1.Areas.SecendArea.Controllers
 {
+    [Area("SecendArea")]
     public class MelissaModelsController : Controller
     {
         private readonly AppDbContext _context;
